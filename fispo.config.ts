@@ -3,6 +3,7 @@ import theme from "@fispo/particle/config";
 import { ThemeConfig } from "@fispo/particle";
 
 export default defineConfig<ThemeConfig>({
+  base: "/fispo-particle",
   title: "fispo的个人博客",
   author: "fispo",
   description: "学无止境",
