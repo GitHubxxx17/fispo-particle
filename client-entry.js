@@ -8009,7 +8009,7 @@ var DataRouterStateHook;
 })(DataRouterStateHook || (DataRouterStateHook = {}));
 const scriptRel = "modulepreload";
 const assetsURL = function(dep) {
-  return "/" + dep;
+  return "/fispo-particle/" + dep;
 };
 const seen = {};
 const __vitePreload = function preload(baseModule, deps, importerUrl) {
@@ -8085,7 +8085,7 @@ const Route0 = React3.lazy(() => __vitePreload(() => import("./assets/helloworld
 const routes = [
   { path: "/post/helloworld", element: React3.createElement(Route0), preload: () => __vitePreload(() => import("./assets/helloworld-DOFo62z_.js"), true ? [] : void 0) }
 ];
-const siteData = { "base": "/", "title": "fispo的个人博客", "description": "学无止境", "theme": { "name": "particle", "layoutPath": "D:\\Front-end\\ssg_learn\\blog2\\node_modules\\@fispo\\particle\\src\\index.ts", "config": { "navMenus": [], "banner": { "img": "/banner.png", "title": "", "subTitle": "" } }, "plugins": [] }, "themeConfig": { "navMenus": [{ "title": "首页", "path": "/", "icon": "home" }, { "title": "标签", "path": "/tag", "icon": "tag" }, { "title": "分类", "path": "/category", "icon": "folder-open" }, { "title": "关于", "path": "/about", "icon": "heart" }], "banner": { "img": "/banner.png", "title": "", "subTitle": "" } }, "vite": { "base": "/" }, "author": "fispo", "avatar": "/avatar.jpg", "backgroundImg": "/bg.png", "root": "docs", "postDir": "/post", "build": "build", "public": "public", "notFoundImg": "/404.png", "logo": "/logo.png", "markdown": {}, "plugins": [], "preloader": false, "deploy": { "repo": "https://github.com/GitHubxxx17/fispo-particle.git", "branch": "gh-pages" }, "htmlTags": [], "highlighter": { "theme": "nord" } };
+const siteData = { "base": "/fispo-particle", "title": "fispo的个人博客", "description": "学无止境", "theme": { "name": "particle", "layoutPath": "D:\\Front-end\\ssg_learn\\blog2\\node_modules\\@fispo\\particle\\src\\index.ts", "config": { "navMenus": [], "banner": { "img": "/banner.png", "title": "", "subTitle": "" } }, "plugins": [] }, "themeConfig": { "navMenus": [{ "title": "首页", "path": "/", "icon": "home" }, { "title": "标签", "path": "/tag", "icon": "tag" }, { "title": "分类", "path": "/category", "icon": "folder-open" }, { "title": "关于", "path": "/about", "icon": "heart" }], "banner": { "img": "/banner.png", "title": "", "subTitle": "" } }, "vite": { "base": "/fispo-particle" }, "author": "fispo", "avatar": "/avatar.jpg", "backgroundImg": "/bg.png", "root": "docs", "postDir": "/post", "build": "build", "public": "public", "notFoundImg": "/404.png", "logo": "/logo.png", "markdown": {}, "plugins": [], "preloader": false, "deploy": { "repo": "https://github.com/GitHubxxx17/fispo-particle.git", "branch": "gh-pages" }, "htmlTags": [], "highlighter": { "theme": "nord" } };
 function formatDateToYYYYMMDD(dateStr) {
   const date2 = new Date(dateStr);
   const year = date2.getFullYear();
