@@ -1,0 +1,20 @@
+{
+  "name": "blog2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "fispo dev",
+    "build": "fispo build",
+    "preview": "fispo preview",
+    "deploy": "fispo deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fispo/particle": "^0.4.2",
+    "fispo-core": "^0.4.2"
+  }
+}
